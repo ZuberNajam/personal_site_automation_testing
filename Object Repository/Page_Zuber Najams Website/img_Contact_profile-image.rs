@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Contact_profile-image</name>
+   <tag></tag>
+   <elementGuidId>21dd0f59-befa-4159-a74c-5f34977ffe72</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='Picture of Me']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.profile-image</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>261a9989-837f-4a43-987a-8721320c294f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>me.jfif</value>
+      <webElementGuid>854e04a2-efdf-4b1d-80b5-bb98080cf8d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Picture of Me</value>
+      <webElementGuid>ac41d9ee-374a-4684-a4a2-ee5e2a4a65b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>profile-image</value>
+      <webElementGuid>f4724655-f798-427c-bd90-f7f6cada0194</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/header[1]/img[@class=&quot;profile-image&quot;]</value>
+      <webElementGuid>4509e315-8f9e-4687-abd0-ecc6949d10c0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Picture of Me']</value>
+      <webElementGuid>185868b5-e444-44f6-940e-cdc91d698901</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>18b2ac95-abdc-4930-91d6-ffd5fbfedf3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'me.jfif' and @alt = 'Picture of Me']</value>
+      <webElementGuid>423094f0-14d7-4212-a891-e804911dcd8e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

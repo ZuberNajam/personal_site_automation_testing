@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+landing_page,Chrome 111.0.5563.148,,,2023-04-10 12:41:28,2023-04-10 12:41:38,10.524s,PASSED
+,,,,,,,
+Test Cases/Access_website,Chrome 111.0.5563.148,,,2023-04-10 12:41:28,2023-04-10 12:41:35,7.034s,PASSED
+"openBrowser("""")",Chrome 111.0.5563.148,,,2023-04-10 12:41:28,2023-04-10 12:41:31,2.253s,PASSED
+"navigateToUrl(""http://www.zubernajam.com/"")",Chrome 111.0.5563.148,,,2023-04-10 12:41:31,2023-04-10 12:41:35,3.930s,PASSED
+maximizeWindow(),Chrome 111.0.5563.148,,,2023-04-10 12:41:35,2023-04-10 12:41:35,0.140s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_Zuber Najams Website/img_Contact_profile-image""))",Chrome 111.0.5563.148,,,2023-04-10 12:41:35,2023-04-10 12:41:35,0.411s,PASSED
+,,,,,,,
+Test Cases/Validate_page,Chrome 111.0.5563.148,,,2023-04-10 12:41:35,2023-04-10 12:41:38,3.168s,PASSED
+"openBrowser("""")",Chrome 111.0.5563.148,,,2023-04-10 12:41:35,2023-04-10 12:41:37,1.756s,PASSED
+"navigateToUrl(""http://www.zubernajam.com/"")",Chrome 111.0.5563.148,,,2023-04-10 12:41:37,2023-04-10 12:41:38,0.597s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Zuber Najams Website/img_Contact_profile-image""), 0)",Chrome 111.0.5563.148,,,2023-04-10 12:41:38,2023-04-10 12:41:38,0.109s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Zuber Najams Website/h1_Hello, Im Zuber""), ""Hello, I’m Zuber!"")",Chrome 111.0.5563.148,,,2023-04-10 12:41:38,2023-04-10 12:41:38,0.177s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Zuber Najams Website/h2_Welcome To My Website""), 0)",Chrome 111.0.5563.148,,,2023-04-10 12:41:38,2023-04-10 12:41:38,0.122s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Zuber Najams Website/div_Background        I currently work as a_507600""), 0)",Chrome 111.0.5563.148,,,2023-04-10 12:41:38,2023-04-10 12:41:38,0.074s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Zuber Najams Website/div_Skills        I am always open to learn_d186dd""), 0)",Chrome 111.0.5563.148,,,2023-04-10 12:41:38,2023-04-10 12:41:38,0.094s,PASSED

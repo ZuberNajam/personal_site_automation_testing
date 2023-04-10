@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="landing_page" time="10.524" tests="2" failures="0" errors="0">
+   <testsuite name="landing_page" tests="2" failures="0" errors="0" time="10.524" skipped="0" timestamp="2023-04-10 12:41:28" hostname="zsyed - ZSN_Laptop" id="Test Suites/landing_page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\zsyed\\git\\personal_site_automation_testing\\Reports\\20230410_124125\\landing_page\\20230410_124125"/>
+         <property name="logFiles" value="C:\\Users\\zsyed\\git\\personal_site_automation_testing\\Reports\\20230410_124125\\landing_page\\20230410_124125\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="zsyed - ZSN_Laptop"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 111.0.5563.148"/>
+         <property name="hostAddress" value="192.168.4.69"/>
+         <property name="sessionId" value="6f98bd42ab9dbc40cbcc123ebb6d81a3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Access_website" time="7.034" classname="Test Cases/Access_website" status="PASSED">
+         <system-out><![CDATA[2023-04-10 12:41:28 - [TEST_CASE][PASSED] - Test Cases/Access_website: Test Cases/Access_website
+
+2023-04-10 12:41:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-10 12:41:29 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2023-04-10 12:41:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-10 12:41:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-10 12:41:31 - [TEST_STEP][PASSED] - navigateToUrl("http://www.zubernajam.com/"): Navigate to 'http://www.zubernajam.com/' successfully
+
+2023-04-10 12:41:35 - [MESSAGE][PASSED] - Navigate to 'http://www.zubernajam.com/' successfully
+
+2023-04-10 12:41:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-10 12:41:35 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-10 12:41:35 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_Zuber Najams Website/img_Contact_profile-image")): Object: 'Object Repository/Page_Zuber Najams Website/img_Contact_profile-image' is hovered
+
+2023-04-10 12:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Zuber Najams Website/img_Contact_profile-image' is hovered]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validate_page" time="3.168" classname="Test Cases/Validate_page" status="PASSED">
+         <system-out><![CDATA[2023-04-10 12:41:35 - [TEST_CASE][PASSED] - Test Cases/Validate_page: Test Cases/Validate_page
+
+2023-04-10 12:41:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-10 12:41:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-10 12:41:36 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2023-04-10 12:41:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-10 12:41:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-10 12:41:37 - [TEST_STEP][PASSED] - navigateToUrl("http://www.zubernajam.com/"): Navigate to 'http://www.zubernajam.com/' successfully
+
+2023-04-10 12:41:38 - [MESSAGE][PASSED] - Navigate to 'http://www.zubernajam.com/' successfully
+
+2023-04-10 12:41:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Zuber Najams Website/img_Contact_profile-image"), 0): Object 'Object Repository/Page_Zuber Najams Website/img_Contact_profile-image' is present
+
+2023-04-10 12:41:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-10 12:41:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Zuber Najams Website/img_Contact_profile-image' is present
+
+2023-04-10 12:41:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Zuber Najams Website/h1_Hello, Im Zuber"), "Hello, I’m Zuber!"): Actual text and expected text of test object 'Object Repository/Page_Zuber Najams Website/h1_Hello, Im Zuber' are matched.
+
+2023-04-10 12:41:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Zuber Najams Website/h1_Hello, Im Zuber' are matched.
+
+2023-04-10 12:41:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Zuber Najams Website/h2_Welcome To My Website"), 0): Object 'Object Repository/Page_Zuber Najams Website/h2_Welcome To My Website' is present
+
+2023-04-10 12:41:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-10 12:41:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Zuber Najams Website/h2_Welcome To My Website' is present
+
+2023-04-10 12:41:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Zuber Najams Website/div_Background        I currently work as a_507600"), 0): Object 'Object Repository/Page_Zuber Najams Website/div_Background        I currently work as a_507600' is present
+
+2023-04-10 12:41:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-10 12:41:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Zuber Najams Website/div_Background        I currently work as a_507600' is present
+
+2023-04-10 12:41:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Zuber Najams Website/div_Skills        I am always open to learn_d186dd"), 0): Object 'Object Repository/Page_Zuber Najams Website/div_Skills        I am always open to learn_d186dd' is present
+
+2023-04-10 12:41:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-10 12:41:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Zuber Najams Website/div_Skills        I am always open to learn_d186dd' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-10 12:41:28 - [TEST_SUITE][PASSED] - landing_page: Test Cases/Validate_page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
